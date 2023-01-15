@@ -1,0 +1,140 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 0px;
+    font-size: 6px;
+    background-color: black;
+}
+
+.header ul{
+    text-align: center;
+    justify-content: space-between;
+}
+
+.header ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+}
+
+.git{
+    padding: 5px;
+    width: 35px;
+    height: 10px;
+    background-color: goldenrod;
+    color: black;
+    align-items: center;
+}
+
+.body{
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 15px;
+    background-color: black;
+}
+
+.smallmain{
+    color: whitesmoke;
+    justify-content: space-between;
+    font-size: 5px;
+}
+
+.images img{
+    padding: 20px 8px;
+  display: inline;
+  height: 15px;
+}
+
+.blocksp{
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    font-size: 5px;
+}
+
+.blocksp span{
+    font-size: 18px;
+}
+
+.blocksp .im1{
+    float: left;
+}
+
+.blocksp .im1 img{
+    height: 100px;
+    float: left;
+}
+
+.blocksp .im2{
+    float: right;
+}
+
+.blocksp .im2 img{
+    height: 100px;
+    float: left;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 7px;
+    background-color: rgb(74, 66, 66);
+}
+
+.grid div{
+    padding: 0 5px 5px 0;
+}
+
+.float1{
+    grid-template-columns: 1;
+}
+
+.float2{
+    grid-template-columns: 2;
+}
+
+.headerbg{
+    font-size: 12px;
+}
+
+.column1{
+    color: rgb(153, 106, 106);
+}
+
+.box{
+    background-color: black;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+.box .fonts{
+    font-size: 7px;
+    margin: 0 250px 5px 0;
+    color: rgb(153, 106, 106);
+}
+
+.box .fontb{
+    margin: 0 0 3px 0;
+}
+
+.getint{
+    font-size: 7px;
+    align-content: center;
+    padding: 5px;
+    width: 40px;
+    height: 10px;
+    background-color: goldenrod;
+    color: black;
+    align-items: center;
+}
